@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+    /* Style the header */
+.header {
+    background-color: #b8dfe6;
+    padding: 20px;
+    text-align: center;
+    color: whitesmoke;
+}
+    /* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: #fbb9c5;
+}
+    /* Style the topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+    /* Change color on hover */
+.topnav a:hover {
+    background-color: #04434f;
+    color: rgb(236, 225, 241);
+    transition: 2s;
+}
+    /* Create three unequal columns that floats next to each other */
+.column {
+    float: left;
+    padding: 10px;
+    background-color:#b8dfe6;
+
+}
+    /* Left and right column */
+.column.side {
+    width: 33.30%;
+    padding: 15px;
+}
+.right,.left {
+    text-align: center;
+}
+    /* Middle column */
+.column.side{
+    width: 33.30%;
+}
+    /* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+    /* Responsive layout - makes the three columns stack on top of each other 
+    instead of next to 
+    each other */
+    @media screen and (max-width: 600px) {
+.column.side, .column.middle {
+    width: 100%;
+    }
+}
+b{
+    text-align: center;
+    color: black;
+    position: relative;
+
+}
+.hero b{
+    text-align: center;
+    padding: relative;
+}
